@@ -167,7 +167,7 @@
                             <h2>Why Choose Our Luxury Transportation in Nevada</h2>
                             <p>Choosing the right provider makes all the difference. Our service focuses on quality, reliability, and consistency.</p>
 
-                            <h1>Key Highlights</h1>
+                            <h3>Key Highlights</h3>
 
                             <div class="ve-amenities-list">
                                 <ul>
@@ -180,13 +180,13 @@
                             </div>
 
                             <h2>Simple Booking Process</h2>
-                            <p>Booking <a href="{{ route('book-online') }}"><b>luxury transportation in Nevada</b></a> is quick and efficient. Choose your location, time, and vehicle, and your ride is confirmed.</p>
+                            <p>Booking <a href="{{ route('book-online') }}" style="color: var(--ve-gold);""><b>luxury transportation in Nevada</b></a> is quick and efficient. Choose your location, time, and vehicle, and your ride is confirmed.</p>
 
                             <p>Advance booking is recommended during peak seasons and major events in Nevada.</p>
 
                             <h2>A Better Way to Travel in Nevada</h2>
                             <p>
-                                From <a href="{{ route('services.airport-transportation') }}"><b>airport transfers</b></a> to corporate travel and private rides, choosing luxury transportation in Nevada ensures a smooth, stress-free journey every time.
+                                From <a href="{{ route('services.airport-transportation') }}" style="color: var(--ve-gold);"><b>airport transfers</b></a> to corporate travel and private rides, choosing luxury transportation in Nevada ensures a smooth, stress-free journey every time.
                             </p>
                         </div>
                     </div>
