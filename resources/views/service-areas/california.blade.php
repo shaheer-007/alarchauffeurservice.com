@@ -29,7 +29,7 @@
                         </div>
 
                         <div class="ve-area-features mb-50">
-                            <h3>Our California <span>Presence</span></h3>
+                            <h3>Our California <span>Expertise</span></h3>
                             <div class="row mt-30">
                                 <div class="col-md-6 mb-30">
                                     <div class="ve-feature-text-item">

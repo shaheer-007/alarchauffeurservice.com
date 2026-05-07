@@ -28,36 +28,36 @@
                         </div>
 
                         <div class="ve-area-features mb-50">
-                            <h3>Our New Jersey <span>Expertise</span></h3>
+                            <h3>Our San Francisco <span>Expertise</span></h3>
                             <div class="row mt-30">
-                                <div class="col-md-6 mb-30">
-                                    <div class="ve-feature-text-item">
-                                        <i class="fa fa-plane"></i>
-                                        <h5>EWR Airport Specialists</h5>
-                                        <p>Expert navigation to Newark Liberty International Airport with personalized pickup and drop-off services.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="ve-feature-text-item">
-                                        <i class="fa fa-building"></i>
-                                        <h5>Corporate Corridors</h5>
-                                        <p>Efficient transport for the major corporate headquarters in Jersey City, Princeton, and Morristown.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="ve-feature-text-item">
-                                        <i class="fa fa-star"></i>
-                                        <h5>Event Excellence</h5>
-                                        <p>Sophisticated transportation for weddings, galas, and private events in New Jersey's most prestigious venues.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="ve-feature-text-item">
-                                        <i class="fa fa-road"></i>
-                                        <h5>State to State Travel</h5>
-                                        <p>Comfortable long-distance journeys between New Jersey and neighboring states like New York and Pennsylvania.</p>
-                                    </div>
-                                </div>
+                                 <div class="col-md-6 mb-30">
+                                     <div class="ve-feature-text-item">
+                                         <i class="fa fa-plane"></i>
+                                         <h5>SFO & Bay Area Specialists</h5>
+                                         <p>Expert navigation to San Francisco International (SFO) and Oakland (OAK) with personalized pickup and drop-off services.</p>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-6 mb-30">
+                                     <div class="ve-feature-text-item">
+                                         <i class="fa fa-building"></i>
+                                         <h5>Tech & Finance Centers</h5>
+                                         <p>Efficient transport for Silicon Valley, the Financial District, and major tech headquarters.</p>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-6 mb-30">
+                                     <div class="ve-feature-text-item">
+                                         <i class="fa fa-star"></i>
+                                         <h5>Wine Country & Gala</h5>
+                                         <p>Sophisticated transportation for Napa Valley tours, Silicon Valley summits, and private Bay Area events.</p>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-6 mb-30">
+                                     <div class="ve-feature-text-item">
+                                         <i class="fa fa-road"></i>
+                                         <h5>Northern California Travel</h5>
+                                         <p>Comfortable long-distance journeys between San Francisco and destinations like Lake Tahoe or Los Angeles.</p>
+                                     </div>
+                                 </div>
                             </div>
                         </div>
 

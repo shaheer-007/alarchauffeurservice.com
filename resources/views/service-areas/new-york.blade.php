@@ -29,34 +29,34 @@
                         </div>
 
                         <div class="ve-area-features mb-50">
-                            <h3>Our New Jersey <span>Expertise</span></h3>
+                            <h3>Our New York <span>Expertise</span></h3>
                             <div class="row mt-30">
                                 <div class="col-md-6 mb-30">
                                     <div class="ve-feature-text-item">
                                         <i class="fa fa-plane"></i>
-                                        <h5>EWR Airport Specialists</h5>
-                                        <p>Expert navigation to Newark Liberty International Airport with personalized pickup and drop-off services.</p>
+                                        <h5>JFK & LGA Specialists</h5>
+                                        <p>Expert navigation to John F. Kennedy (JFK) and LaGuardia (LGA) with personalized pickup and drop-off services.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <div class="ve-feature-text-item">
                                         <i class="fa fa-building"></i>
-                                        <h5>Corporate Corridors</h5>
-                                        <p>Efficient transport for the major corporate headquarters in Jersey City, Princeton, and Morristown.</p>
+                                        <h5>Manhattan Corridors</h5>
+                                        <p>Efficient transport for Wall Street, Midtown, and the major corporate centers of New York City.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <div class="ve-feature-text-item">
                                         <i class="fa fa-star"></i>
-                                        <h5>Event Excellence</h5>
-                                        <p>Sophisticated transportation for weddings, galas, and private events in New Jersey's most prestigious venues.</p>
+                                        <h5>Gala & Theater Excellence</h5>
+                                        <p>Sophisticated transportation for Broadway openings, gala events, and private Manhattan soirées.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <div class="ve-feature-text-item">
                                         <i class="fa fa-road"></i>
-                                        <h5>State to State Travel</h5>
-                                        <p>Comfortable long-distance journeys between New Jersey and neighboring states like New York and Pennsylvania.</p>
+                                        <h5>Tri-State Travel</h5>
+                                        <p>Comfortable long-distance journeys between New York, New Jersey, and Connecticut.</p>
                                     </div>
                                 </div>
                             </div>
