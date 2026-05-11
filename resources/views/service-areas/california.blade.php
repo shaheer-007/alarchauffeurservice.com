@@ -64,7 +64,7 @@
 
                         <div class="ve-area-description">
                             <h2>Airport Transfers That Match Your Schedule, Not the <span>Other Way Around</span></h2>
-                            <p>AAir travel can be unpredictable, but your ground transportation shouldn’t be. Our <a href="{{ route('services.airport-transportation') }}" style="color: var(--ve-gold);"><b>airport chauffeur service in California</b></a> is tailored for travelers who want a dependable, on-time pickup without stress.</p>
+                            <p>Air travel can be unpredictable, but your ground transportation shouldn’t be. Our <a href="{{ route('services.airport-transportation') }}" style="color: var(--ve-gold);"><b>airport chauffeur service in California</b></a> is tailored for travelers who want a dependable, on-time pickup without stress.</p>
                         </div>
 
                         <h3>Airports We Serve Across California</h3>
@@ -112,148 +112,147 @@
                         </div>  
                         
                         <p>This is ideal for those looking to <a href="{{ route('book-online') }}" style="color: var(--ve-gold);"><b>book a private car service in California</b></a> with full control over their travel experience.</p>
-                <h2>Traveling from California to New Jersey for FIFA 2026</h2>
+                        <h2>Traveling from California to New Jersey for FIFA 2026</h2>
 
-                <p>The <a href="{{ route('services.fifa-world-cup-2026-transportation') }}" style="color: var(--ve-gold);"><b>FIFA World Cup 2026</b></a> is set to attract fans from across the globe, with major matches hosted at MetLife Stadium.</p>
+                        <p>The <a href="{{ route('services.fifa-world-cup-2026-transportation') }}" style="color: var(--ve-gold);"><b>FIFA World Cup 2026</b></a> is set to attract fans from across the globe, with major matches hosted at MetLife Stadium.</p>
 
-                <p>If you’re flying in from California, your journey doesn’t end at the airport. That’s where a coordinated chauffeur service becomes essential.</p>
+                        <p>If you’re flying in from California, your journey doesn’t end at the airport. That’s where a coordinated chauffeur service becomes essential.</p>
 
-                <h2>Seamless East Coast Transfers for Match Days</h2>
+                        <h2>Seamless East Coast Transfers for Match Days</h2>
 
-                <div class="ve-amenities-list">
-                    <ul>
-                        <li><i class="fa fa-check"></i> Pickup from arrival airports in New York or New Jersey</li>
-                        <li><i class="fa fa-check"></i> Direct ride to your hotel or stadium</li>
-                        <li><i class="fa fa-check"></i> Timely drop-off aligned with match schedules</li>
-                        <li><i class="fa fa-check"></i> Comfortable return service after the game</li>
-                    </ul>
-                </div>
-
-                <p>Many travelers look for transport from the airport to MetLife Stadium or New York to New Jersey private transfer. Our service is designed to meet those exact needs with precision.</p>
-
-                <h2>Chauffeur Services Suited to Every Occasion</h2>
-                <p>Not every trip is the same, which is why our services are designed with flexibility in mind. Whether it's business or celebration, we provide the right experience.</p>
-
-                <h3>Executive Travel for Business Professionals</h3>
-                <p>Our <a href="{{ route('services.corporate-transportation') }}" style="color: var(--ve-gold);"><b>corporate chauffeur service in California</b></a> ensures timely arrivals, quiet rides, and a professional environment for meetings and events.</p>
-
-                <h3>Event & Entertainment Transportation</h3>
-                <p>From concerts to sports events, our <a href="{{ route('services.sporting-events') }}" style="color: var(--ve-gold);"><b>event limo service</b></a> offers stylish and reliable transportation when timing matters most.</p>
-
-                <h3>Weddings & Special Celebrations</h3>
-                <p>Arrive in elegance with a <a href="{{ route('services.wedding-limo') }}" style="color: var(--ve-gold);"><b>luxury wedding limo service</b></a>, designed to make important moments even more memorable.</p>
-
-                <h3>Hourly Chauffeur Service for Flexible Plans</h3>
-                <p>Need multiple stops or last-minute changes? Our hourly service gives you full control of your travel schedule.</p>
-
-                <h2>What Sets Our California Chauffeur Service Apart</h2>
-                <p>In a competitive market, the difference lies in the details. Our service focuses on what travelers truly need—reliability, comfort, and simplicity.</p>
-
-                <h3>A Service Built Around You</h3>
-                <div class="ve-amenities-list">
-                    <ul>
-                        <li><i class="fa fa-check"></i> Professional chauffeurs trained for premium service</li>
-                        <li><i class="fa fa-check"></i> Modern fleet of luxury sedans and SUVs</li>
-                        <li><i class="fa fa-check"></i> On-time pickups, every time</li>
-                        <li><i class="fa fa-check"></i> 24/7 availability for all travel needs</li>
-                        <li><i class="fa fa-check"></i> Simple booking process with clear communication</li>
-                    </ul>
-                </div>
-
-                <p>Whether you’re searching for a luxury limo service near you, a reliable airport transfer, or a long-distance chauffeur, we ensure every ride meets high expectations.</p>
-
-                <h2>Easy Booking, Clear Planning, Better Travel</h2>
-                <p>Booking your chauffeur service in California should feel simple, not complicated. Our process is designed to save you time and give you confidence in your travel plans.</p>
-                <p>We recommend booking early especially during peak travel periods and major events like the FIFA World Cup 2026, to secure your preferred vehicle and timing.</p>
-
-                <h2>A Better Way to Travel in California</h2>
-                <p>California offers endless destinations, but how you travel between them matters just as much. With Alar Chauffeur Service, every ride is designed to be smooth, comfortable, and dependable.</p>
-                <p>From airport pickups to <a href="{{ route('services.fifa-world-cup-2026-transportation') }}" style="color: var(--ve-gold);"><b>California to New Jersey travel for FIFA matches</b></a>, we handle the details so you can focus on the experience.</p>
-
-                <div class="ve-area-faq mt-50">
-                    <span class="ve-section-tag">FAQs</span>
-                    <h2 class="mb-30">Frequently Asked Questions <span>(FAQs)</span></h2>
-                                
-                    <div id="njFaqAccordion" class="accordion ve-faq-accordion">
-                        <!-- FAQ 1 -->
-                        <div class="card ve-faq-card">
-                            <div class="card-header ve-faq-card-header" id="njFaqHeadingOne">
-                                <button class="btn ve-faq-toggle btn-block text-left px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqOne" aria-expanded="true" aria-controls="njFaqOne">
-                                    <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Which airports do you provide chauffeur service for in California?</h3>
-                                </button>
-                            </div>
-                            <div id="njFaqOne" class="collapse show" aria-labelledby="njFaqHeadingOne" data-parent="#njFaqAccordion">
-                                <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
-                                    <p>We cover major airports including Los Angeles International Airport, San Francisco International Airport, and San Diego International Airport.</p>
-                                </div>
-                            </div>
+                        <div class="ve-amenities-list">
+                            <ul>
+                                <li><i class="fa fa-check"></i> Pickup from arrival airports in New York or New Jersey</li>
+                                <li><i class="fa fa-check"></i> Direct ride to your hotel or stadium</li>
+                                <li><i class="fa fa-check"></i> Timely drop-off aligned with match schedules</li>
+                                <li><i class="fa fa-check"></i> Comfortable return service after the game</li>
+                            </ul>
                         </div>
 
-                        <!-- FAQ 2 -->
-                        <div class="card ve-faq-card">
-                            <div class="card-header ve-faq-card-header" id="njFaqHeadingTwo">
-                                <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqTwo" aria-expanded="false" aria-controls="njFaqTwo">
-                                    <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Can I arrange transportation after flying from California to New Jersey?</h3>
-                                </button>
-                            </div>
-                            <div id="njFaqTwo" class="collapse" aria-labelledby="njFaqHeadingTwo" data-parent="#njFaqAccordion">
-                                <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
-                                    <p>Yes, we provide coordinated chauffeur service for airport pickup and transfers to destinations like MetLife Stadium.</p>
-                                </div>
-                            </div>
+                        <p>Many travelers look for transport from the airport to MetLife Stadium or New York to New Jersey private transfer. Our service is designed to meet those exact needs with precision.</p>
+
+                        <h2>Chauffeur Services Suited to Every Occasion</h2>
+                        <p>Not every trip is the same, which is why our services are designed with flexibility in mind. Whether it's business or celebration, we provide the right experience.</p>
+
+                        <h3>Executive Travel for Business Professionals</h3>
+                        <p>Our <a href="{{ route('services.corporate-transportation') }}" style="color: var(--ve-gold);"><b>corporate chauffeur service in California</b></a> ensures timely arrivals, quiet rides, and a professional environment for meetings and events.</p>
+
+                        <h3>Event & Entertainment Transportation</h3>
+                        <p>From concerts to sports events, our <a href="{{ route('services.sporting-events') }}" style="color: var(--ve-gold);"><b>event limo service</b></a> offers stylish and reliable transportation when timing matters most.</p>
+
+                        <h3>Weddings & Special Celebrations</h3>
+                        <p>Arrive in elegance with a <a href="{{ route('services.wedding-limo') }}" style="color: var(--ve-gold);"><b>luxury wedding limo service</b></a>, designed to make important moments even more memorable.</p>
+
+                        <h3>Hourly Chauffeur Service for Flexible Plans</h3>
+                        <p>Need multiple stops or last-minute changes? Our hourly service gives you full control of your travel schedule.</p>
+
+                        <h2>What Sets Our California Chauffeur Service Apart</h2>
+                        <p>In a competitive market, the difference lies in the details. Our service focuses on what travelers truly need—reliability, comfort, and simplicity.</p>
+
+                        <h3>A Service Built Around You</h3>
+                        <div class="ve-amenities-list">
+                            <ul>
+                                <li><i class="fa fa-check"></i> Professional chauffeurs trained for premium service</li>
+                                <li><i class="fa fa-check"></i> Modern fleet of luxury sedans and SUVs</li>
+                                <li><i class="fa fa-check"></i> On-time pickups, every time</li>
+                                <li><i class="fa fa-check"></i> 24/7 availability for all travel needs</li>
+                                <li><i class="fa fa-check"></i> Simple booking process with clear communication</li>
+                            </ul>
                         </div>
 
-                        <!-- FAQ 3 -->
-                        <div class="card ve-faq-card">
-                            <div class="card-header ve-faq-card-header" id="njFaqHeadingThree">
-                                <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqThree" aria-expanded="false" aria-controls="njFaqThree">
-                                    <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Do you offer private city-to-city travel within California?</h3>
-                                </button>
-                            </div>
-                            <div id="njFaqThree" class="collapse" aria-labelledby="njFaqHeadingThree" data-parent="#njFaqAccordion">
-                                <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
-                                    <p>YeYes, we provide direct and comfortable transportation between major cities across California.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <p>Whether you’re searching for a luxury limo service near you, a reliable airport transfer, or a long-distance chauffeur, we ensure every ride meets high expectations.</p>
 
-                        <!-- FAQ 4 -->
-                        <div class="card ve-faq-card">
-                            <div class="card-header ve-faq-card-header" id="njFaqHeadingFour">
-                                <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqFour" aria-expanded="false" aria-controls="njFaqFour">
-                                    <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Is your chauffeur service suitable for business and corporate travel?</h3>
-                                </button>
-                            </div>
-                            <div id="njFaqFour" class="collapse" aria-labelledby="njFaqHeadingFour" data-parent="#njFaqAccordion">
-                                <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
-                                    <p>Yes, our executive chauffeur service is designed for professionals who need punctual and reliable transportation.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h2>Easy Booking, Clear Planning, Better Travel</h2>
+                        <p>Booking your chauffeur service in California should feel simple, not complicated. Our process is designed to save you time and give you confidence in your travel plans.</p>
+                        <p>We recommend booking early especially during peak travel periods and major events like the FIFA World Cup 2026, to secure your preferred vehicle and timing.</p>
 
-                        <!-- FAQ 5 -->
-                        <div class="card ve-faq-card">
-                            <div class="card-header ve-faq-card-header" id="njFaqHeadingFive">
-                                <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqFive" aria-expanded="false" aria-controls="njFaqFive">
-                                    <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">How do I book a chauffeur service in California?</h3>
-                                </button>
-                            </div>
-                            <div id="njFaqFive" class="collapse" aria-labelledby="njFaqHeadingFive" data-parent="#njFaqAccordion">
-                                <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
-                                    <p>You can book by selecting your pickup location, time, and vehicle in advance to ensure availability and smooth service.</p>
+                        <h2>A Better Way to Travel in California</h2>
+                        <p>California offers endless destinations, but how you travel between them matters just as much. With Alar Chauffeur Service, every ride is designed to be smooth, comfortable, and dependable.</p>
+                        <p>From airport pickups to <a href="{{ route('services.fifa-world-cup-2026-transportation') }}" style="color: var(--ve-gold);"><b>California to New Jersey travel for FIFA matches</b></a>, we handle the details so you can focus on the experience.</p>
+
+                        <div class="ve-area-faq mt-50">
+                            <span class="ve-section-tag">FAQs</span>
+                            <h2 class="mb-30">Frequently Asked Questions <span>(FAQs)</span></h2>
+                                        
+                            <div id="njFaqAccordion" class="accordion ve-faq-accordion">
+                                <!-- FAQ 1 -->
+                                <div class="card ve-faq-card">
+                                    <div class="card-header ve-faq-card-header" id="njFaqHeadingOne">
+                                        <button class="btn ve-faq-toggle btn-block text-left px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqOne" aria-expanded="true" aria-controls="njFaqOne">
+                                            <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Which airports do you provide chauffeur service for in California?</h3>
+                                        </button>
+                                    </div>
+                                    <div id="njFaqOne" class="collapse show" aria-labelledby="njFaqHeadingOne" data-parent="#njFaqAccordion">
+                                        <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
+                                            <p>We cover major airports including Los Angeles International Airport, San Francisco International Airport, and San Diego International Airport.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 2 -->
+                                <div class="card ve-faq-card">
+                                    <div class="card-header ve-faq-card-header" id="njFaqHeadingTwo">
+                                        <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqTwo" aria-expanded="false" aria-controls="njFaqTwo">
+                                            <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Can I arrange transportation after flying from California to New Jersey?</h3>
+                                        </button>
+                                    </div>
+                                    <div id="njFaqTwo" class="collapse" aria-labelledby="njFaqHeadingTwo" data-parent="#njFaqAccordion">
+                                        <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
+                                            <p>Yes, we provide coordinated chauffeur service for airport pickup and transfers to destinations like MetLife Stadium.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 3 -->
+                                <div class="card ve-faq-card">
+                                    <div class="card-header ve-faq-card-header" id="njFaqHeadingThree">
+                                        <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqThree" aria-expanded="false" aria-controls="njFaqThree">
+                                            <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Do you offer private city-to-city travel within California?</h3>
+                                        </button>
+                                    </div>
+                                    <div id="njFaqThree" class="collapse" aria-labelledby="njFaqHeadingThree" data-parent="#njFaqAccordion">
+                                        <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
+                                            <p>Yes, we provide direct and comfortable transportation between major cities across California.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 4 -->
+                                <div class="card ve-faq-card">
+                                    <div class="card-header ve-faq-card-header" id="njFaqHeadingFour">
+                                        <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqFour" aria-expanded="false" aria-controls="njFaqFour">
+                                            <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">Is your chauffeur service suitable for business and corporate travel?</h3>
+                                        </button>
+                                    </div>
+                                    <div id="njFaqFour" class="collapse" aria-labelledby="njFaqHeadingFour" data-parent="#njFaqAccordion">
+                                        <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
+                                            <p>Yes, our executive chauffeur service is designed for professionals who need punctual and reliable transportation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 5 -->
+                                <div class="card ve-faq-card">
+                                    <div class="card-header ve-faq-card-header" id="njFaqHeadingFive">
+                                        <button class="btn ve-faq-toggle btn-block text-left collapsed px-4 py-3" type="button" data-toggle="collapse" data-target="#njFaqFive" aria-expanded="false" aria-controls="njFaqFive">
+                                            <h3 class="m-0" style="font-size: 1.2rem; color: inherit; font-weight: 700;">How do I book a chauffeur service in California?</h3>
+                                        </button>
+                                    </div>
+                                    <div id="njFaqFive" class="collapse" aria-labelledby="njFaqHeadingFive" data-parent="#njFaqAccordion">
+                                        <div class="card-body ve-faq-card-body pt-0 px-4 pb-4">
+                                            <p>You can book by selecting your pickup location, time, and vehicle in advance to ensure availability and smooth service.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-
 
                 <!-- Sidebar -->
                 <div class="col-12 col-lg-4 mt-50 mt-lg-0">
                     <x-service-area-sidebar />
                 </div>
-            </div>
         </div>
     </section>
 
