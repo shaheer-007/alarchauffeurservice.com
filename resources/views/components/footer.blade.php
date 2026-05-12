@@ -73,7 +73,7 @@
     <div class="ve-footer-bottom">
         <div class="container">
             <div class="ve-footer-bottom-inner text-white text-center justify-content-center">
-                <p>A Limousine Website Designed By BM IT</p>
+                <p>&copy; {{ date('Y') }} <a href="{{ route('home') }}" style="color: #fff; text-decoration: none;">Alar Chauffeur Service</a>. All Rights Reserved. Designed By <a href="https://shaheer-siddiqi.vercel.app/" target="_blank" style="color: rgba(255, 255, 255, 0.35); text-decoration: none; font-weight: 600;">Shaheer Siddiqi</a></p>
             </div>
         </div>
     </div>
