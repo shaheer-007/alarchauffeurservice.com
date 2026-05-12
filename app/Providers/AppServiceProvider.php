@@ -21,8 +21,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if (Request::has('item')) {
-            throw new NotFoundHttpException();
+        // Block Japanese spam URLs (e.g., ?item/123 or ?item=123)
+        $queryString = request()->getQueryString();
+        if ($queryString && str_contains($queryString, 'item')) {
+            abort(404);
         }
     }
 }
