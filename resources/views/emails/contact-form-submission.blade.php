@@ -38,6 +38,10 @@
                 <span class="label">Message</span>
                 <span class="value">{!! nl2br(e($submission['message'])) !!}</span>
             </div>
+            <div class="field">
+                <span class="label">SMS Consent</span>
+                <span class="value">{{ $submission['sms_consent'] }}</span>
+            </div>
         </div>
         <div class="footer">
             <p>This email was sent from the Alar Chauffeur Service contact form.</p>

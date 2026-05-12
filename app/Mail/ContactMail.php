@@ -47,6 +47,7 @@ class ContactMail extends Mailable
                     'email' => $this->data['email'],
                     'phone' => $this->data['number'],
                     'message' => $this->data['message'],
+                    'sms_consent' => $this->data['sms_consent'] ? 'Yes' : 'No',
                 ],
             ],
         );

@@ -33,6 +33,7 @@
                     <li><a href="{{ route('our-services') }}">Our Services</a></li>
                     <li><a href="{{ route('our-fleet') }}">Our Fleet</a></li>
                     <li><a href="{{ route('contact-us') }}">Contact us</a></li>
+                    <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                 </ul>
             </div>
             <!-- Col 3: Services -->

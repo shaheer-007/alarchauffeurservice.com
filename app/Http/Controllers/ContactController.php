@@ -32,6 +32,7 @@ class ContactController extends Controller
             'phone' => ['required', 'string'],
             'message' => ['required', 'string'],
             'cf-turnstile-response' => ['required', 'string'],
+            'sms_consent' => ['nullable', 'boolean'],
         ]);
 
         if (! $this->validateTurnstile($request)) {

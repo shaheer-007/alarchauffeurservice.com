@@ -112,6 +112,7 @@
                                 @enderror
                             </div>
                         </div>
+
                         <div class="ve-form-group">
                             <label>Message</label>
                             <textarea rows="5" name="message" placeholder="Message..."
@@ -120,6 +121,19 @@
                             <span class="text-danger" style="font-size: 12px;">{{ $message }}</span>
                             @enderror
                         </div>
+
+                        <!-- SMS Consent (Full Width) -->
+                        <div class="ve-sms-consent-row mb-4">
+                            <label class="ve-sms-consent-label" style="display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-weight: 400; text-transform: none; color: var(--ve-text); font-size: 13px; line-height: 1.6;">
+                                <input type="checkbox" name="sms_consent" value="1" style="width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; border: 1px solid var(--ve-border); border-radius: 4px;">
+                                <span>
+                                    I consent to receive conversational, informational, and promotional SMS from Alar Chauffeur Service. 
+                                    Reply STOP to opt-out; Reply HELP for support; Message and data rates may apply; 
+                                    Messaging frequency may vary. View our <a href="{{ route('privacy-policy') }}" target="_blank" style="color: var(--ve-gold); font-weight: 600; text-decoration: underline;">Privacy Policy</a>.
+                                </span>
+                            </label>
+                        </div>
+
                         @if (config('services.turnstile.site_key'))
                         <div class="ve-form-group">
                             <div class="cf-turnstile"
