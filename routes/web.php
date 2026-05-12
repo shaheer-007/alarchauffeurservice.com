@@ -111,3 +111,7 @@ Route::get('/service-areas/seattle', function () {
 Route::get('/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey', function () {
     return view('blogs.luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey');
 })->name('blog.luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey');
+
+Route::fallback(function () {
+    abort(404);
+});
