@@ -59,14 +59,15 @@
                         <li>To send promotional offers or newsletters, provided you have opted in to receive them.</li>
                     </ul>
 
-                    <h4 class="mt-5 mb-3">3. SMS Terms & Conditions</h4>
-                    <p>If you consent to receive conversational, informational, and promotional SMS from Alar Chauffeur Service, you agree to receive SMS from us. The following terms apply:</p>
+                    <h4 class="mt-5 mb-3" id="sms-terms">3. SMS Terms & Conditions</h4>
+                    <p>Alar Chauffeur Service offers you the option to receive conversational, informational, and promotional SMS messages. The following terms apply to our SMS program:</p>
                     <ul>
-                        <li><strong>Types of Messages:</strong> You may receive conversational, informational, or promotional SMS regarding your bookings, service updates, or special offers.</li>
-                        <li><strong>Opt-in:</strong> By providing your phone number and checking the consent box on our forms, you agree to receive SMS from us.</li>
-                        <li><strong>Opt-out:</strong> You can cancel the SMS service at any time. Just text "STOP" to our number. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us.</li>
+                        <li><strong>Consent:</strong> By providing your phone number and checking the opt-in box on our website, you agree to receive text messages from Alar Chauffeur Service. Consent is not a condition of purchase.</li>
+                        <li><strong>Message Types:</strong> You may receive messages regarding booking confirmations, chauffeur updates, service alerts, and occasional promotional offers.</li>
+                        <li><strong>Opt-out:</strong> You can cancel the SMS service at any time. Just text "STOP" to our number. After you send the SMS message "STOP" to us, we will send you an SMS message to confirm that you have been unsubscribed. After this, you will no longer receive SMS messages from us. If you want to join again, just sign up as you did the first time.</li>
                         <li><strong>Support:</strong> If you are experiencing issues with the messaging program you can reply with the keyword "HELP" for more assistance, or you can get help directly at <a href="mailto:{{ config('contact.email') }}">{{ config('contact.email') }}</a>.</li>
-                        <li><strong>Disclosures:</strong> Carriers are not liable for delayed or undelivered messages. Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency may vary.</li>
+                        <li><strong>Rates & Frequency:</strong> Message and data rates may apply for any messages sent to you from us and to us from you. Message frequency varies based on your interaction with our service.</li>
+                        <li><strong>Carrier Disclosure:</strong> Carriers are not liable for delayed or undelivered messages.</li>
                     </ul>
 
                     <h4 class="mt-5 mb-3">4. Information Sharing & Disclosure</h4>
@@ -74,7 +75,7 @@
                     <ul>
                         <li><strong>Service Providers:</strong> We may share data with trusted third-party partners who assist us in operating our website and conducting our business, so long as those parties agree to keep this information confidential.</li>
                         <li><strong>Legal Requirements:</strong> We may release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property, or safety.</li>
-                        <li><strong>SMS Opt-in Privacy:</strong> <span style="background-color: #fff9e6; padding: 2px 5px; border-radius: 4px; font-weight: 600;">No mobile opt-in or text message consent will be shared with third parties or affiliates.</span></li>
+                        <li><strong>SMS Opt-in Privacy:</strong> <span style="background-color: #fff9e6; padding: 10px; border: 1px solid #ffeeba; display: block; margin: 10px 0; border-radius: 4px; font-weight: 600;">No mobile opt-in or text message consent will be shared with third parties or affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</span></li>
                     </ul>
 
                     <h4 class="mt-5 mb-3">5. Data Security</h4>

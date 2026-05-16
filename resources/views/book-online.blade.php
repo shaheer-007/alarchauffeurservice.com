@@ -31,6 +31,16 @@
                             Your browser does not support inline frames.
                         </iframe>
                     </div>
+                    <!-- TCR Compliance Disclosure -->
+                    <div class="mt-4 p-4" style="background: rgba(0,0,0,0.03); border-radius: 12px; border-left: 4px solid var(--ve-gold);">
+                        <p style="font-size: 13px; color: var(--ve-text); margin-bottom: 0; line-height: 1.5;">
+                            <strong>SMS Disclosure:</strong> By providing your phone number on our booking platform, you agree to receive conversational, informational, and promotional SMS from Alar Chauffeur Service. 
+                            Message frequency varies. Message and data rates may apply. 
+                            Reply STOP to opt-out; Reply HELP for support. 
+                            No mobile opt-in or text message consent will be shared with third parties or affiliates. 
+                            View our <a href="{{ route('privacy-policy') }}" target="_blank" style="color: var(--ve-gold); font-weight: 600; text-decoration: underline;">Privacy Policy</a>.
+                        </p>
+                    </div>
                 </div>
             </div>
 
