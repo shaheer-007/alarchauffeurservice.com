@@ -25,17 +25,22 @@ class ContactController extends Controller
             return redirect()->back()->with('success', 'Thank you. Your message has been sent successfully.');
         }
 
-        $request->validate([
+        $rules = [
             'first_name' => ['required', 'string'],
             'last_name' => ['required', 'string'],
             'email' => ['required', 'email'],
             'phone' => ['required', 'string'],
             'message' => ['required', 'string'],
-            'cf-turnstile-response' => ['required', 'string'],
-            'sms_consent' => ['nullable', 'boolean'],
-        ]);
+            'sms_consent' => ['accepted'],
+        ];
 
-        if (! $this->validateTurnstile($request)) {
+        if (config('services.turnstile.site_key')) {
+            $rules['cf-turnstile-response'] = ['required', 'string'];
+        }
+
+        $request->validate($rules);
+
+        if (config('services.turnstile.site_key') && ! $this->validateTurnstile($request)) {
             return redirect()
                 ->back()
                 ->withErrors([

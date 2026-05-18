@@ -23,6 +23,18 @@
             <!-- Full Width Iframe Row -->
             <div class="row mb-50">
                 <div class="col-12">
+                    <div class="ve-booking-sms-optin mb-4 p-4" style="background: #fff; border-radius: 12px; border: 1px solid var(--ve-border);">
+                        <h5 style="margin-bottom: 12px; font-size: 16px;">SMS/Text Message Opt-In</h5>
+                        <label class="ve-sms-consent-label" style="display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-weight: 400; color: var(--ve-text); font-size: 14px; line-height: 1.6; margin-bottom: 0;">
+                            <input type="checkbox" id="booking-sms-consent" name="booking_sms_consent" value="1" required
+                                style="width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; border: 1px solid var(--ve-border); border-radius: 4px;">
+                            @include('components.sms-consent-label')
+                        </label>
+                        <p style="font-size: 12px; color: var(--ve-text); margin: 12px 0 0; opacity: 0.85;">
+                            Check this box before completing your booking below. You may also opt in on our
+                            <a href="{{ route('contact-us') }}" style="color: var(--ve-gold); font-weight: 600;">contact page</a>.
+                        </p>
+                    </div>
                     <div class="ve-booking-iframe-wrap"
                         style="background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.05);">
                         <iframe name="oresframe" marginwidth="0" marginheight="0" height="1200" width="100%"
@@ -31,14 +43,12 @@
                             Your browser does not support inline frames.
                         </iframe>
                     </div>
-                    <!-- TCR Compliance Disclosure -->
                     <div class="mt-4 p-4" style="background: rgba(0,0,0,0.03); border-radius: 12px; border-left: 4px solid var(--ve-gold);">
                         <p style="font-size: 13px; color: var(--ve-text); margin-bottom: 0; line-height: 1.5;">
-                            <strong>SMS Disclosure:</strong> By providing your phone number on our booking platform, you agree to receive conversational, informational, and promotional SMS from Alar Chauffeur Service. 
-                            Message frequency varies. Message and data rates may apply. 
-                            Reply STOP to opt-out; Reply HELP for support. 
-                            No mobile opt-in or text message consent will be shared with third parties or affiliates. 
-                            View our <a href="{{ route('privacy-policy') }}" target="_blank" style="color: var(--ve-gold); font-weight: 600; text-decoration: underline;">Privacy Policy</a>.
+                            <strong>SMS Reminder:</strong> Message frequency varies. Message and data rates may apply.
+                            Text STOP to opt out. Text HELP for help. Consent is not a condition of purchase.
+                            No mobile opt-in data will be shared with third parties for marketing.
+                            <a href="{{ route('privacy-policy') }}" target="_blank" rel="noopener noreferrer" style="color: var(--ve-gold); font-weight: 600; text-decoration: underline;">Privacy Policy</a>
                         </p>
                     </div>
                 </div>
