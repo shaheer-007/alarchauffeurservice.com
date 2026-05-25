@@ -13,6 +13,11 @@
                     <i class="fa fa-briefcase"></i> Corporate Transportation
                 </a>
             </li>
+            <li class="{{ Request::is('services/hourly-limo') ? 'active' : '' }}">
+                <a href="{{ route('services.hourly-limo') }}">
+                    <i class="fa fa-clock-o"></i> Hourly Limo
+                </a>
+            </li>
             <li class="{{ Request::is('services/wedding-limo') ? 'active' : '' }}">
                 <a href="{{ route('services.wedding-limo') }}">
                     <i class="fa fa-heart"></i> Wedding Limo

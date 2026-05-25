@@ -67,11 +67,29 @@
                     </div>
                 </div>
 
+                <!-- Hourly Limo -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="250ms">
+                    <div class="ve-insight-card">
+                        <div class="ve-insight-img bg-img"
+                            style="background-image:url({{ asset('assets/img/our-services/hourly-limo/banner.webp') }});"></div>
+                        <div class="ve-insight-body">
+                            <h5>Hourly Limo</h5>
+                            <p>Flexible hourly chauffeur service in New Jersey City for airports, meetings, events, and private rides on your schedule.</p>
+                            <div class="ve-services-btns mt-35" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="{{ route('book-online') }}" class="ve-btn-primary"
+                                    style="padding: 10px 18px; font-size: 13px; color: #fff;">Book Online</a>
+                                <a href="{{ route('services.hourly-limo') }}" class="ve-btn-ghost-dark"
+                                    style="padding: 10px 18px; font-size: 13px;">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Wedding Limo -->
                 <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="300ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img"
-                            style="background-image:url({{ asset('assets/img/our-services/wedding-transportation.webp') }});">
+                            style="background-image:url({{ asset('assets/img/our-services/wedding-transportation/banner.webp') }});">
                         </div>
                         <div class="ve-insight-body">
                             <h5>Wedding Limo</h5>
@@ -91,7 +109,7 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="100ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img"
-                            style="background-image:url({{ asset('assets/img/our-services/prom-night.webp') }});"></div>
+                            style="background-image:url({{ asset('assets/img/our-services/prom-night/banner.webp') }});"></div>
                         <div class="ve-insight-body">
                             <h5>Prom Limo</h5>
                             <p>Arrive in style and safety. Our professional chauffeurs ensure a memorable and secure night

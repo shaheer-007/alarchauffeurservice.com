@@ -82,6 +82,10 @@ Route::get('/services/chauffeured-service', function () {
     return view('services.chauffeur-service');
 })->name('services.chauffeured-service');
 
+Route::get('/services/hourly-limo', function () {
+    return view('services.hourly-limo');
+})->name('services.hourly-limo');
+
 //cities
 Route::get('/service-areas/new-jersey', function () {
     return view('service-areas.new-jersey');
