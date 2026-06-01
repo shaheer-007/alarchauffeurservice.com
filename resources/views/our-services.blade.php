@@ -71,7 +71,7 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="250ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img"
-                            style="background-image:url({{ asset('assets/img/our-services/hourly-limo/banner.webp') }});"></div>
+                            style="background-image:url({{ asset('assets/img/our-services/hourly-limo.webp') }});"></div>
                         <div class="ve-insight-body">
                             <h5>Hourly Limo</h5>
                             <p>Flexible hourly chauffeur service in New Jersey City for airports, meetings, events, and private rides on your schedule.</p>
@@ -89,7 +89,7 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="300ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img"
-                            style="background-image:url({{ asset('assets/img/our-services/wedding-transportation/banner.webp') }});">
+                            style="background-image:url({{ asset('assets/img/our-services/wedding-transportation.webp') }});">
                         </div>
                         <div class="ve-insight-body">
                             <h5>Wedding Limo</h5>
@@ -109,7 +109,7 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4 wow fadeInUp" data-wow-delay="100ms">
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img"
-                            style="background-image:url({{ asset('assets/img/our-services/prom-night/banner.webp') }});"></div>
+                                style="background-image:url({{ asset('assets/img/our-services/prom-night.webp') }});"></div>
                         <div class="ve-insight-body">
                             <h5>Prom Limo</h5>
                             <p>Arrive in style and safety. Our professional chauffeurs ensure a memorable and secure night
