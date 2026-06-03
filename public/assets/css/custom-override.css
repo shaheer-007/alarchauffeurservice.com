@@ -4294,6 +4294,16 @@ textarea.ve-form-input {
     margin-top: 30px;
 }
 
+.ve-detail-main-img {
+    width: 100%;
+}
+
+.ve-detail-main-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .ve-service-detail-content h2 {
     font-size: 36px;
     font-weight: 800;
