@@ -2,6 +2,197 @@
 @section('meta_title', 'Limo Service In New Jersey | Alar Chauffeur Service')
 @section('meta_description', 'Premium limo service in New Jersey by ALAR Chauffeur Service. Luxury SUVs, sedans, and
 party buses for airport transfers, events, and group travel. ')
+
+@push('schema')
+<script type="application/ld+json">
+{
+    "@@context": "https://schema.org",
+    "@@graph": [
+        {
+            "@@type": "LimousineBusiness",
+            "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization",
+            "name": "Alar Chauffeur Service",
+            "url": "{{ rtrim(config('app.url'), '/') }}",
+            "description": "Premium limousine and luxury chauffeur services in New Jersey, New York, and select U.S. markets. Airport transfers, corporate travel, weddings, events, and group transportation.",
+            "image": "{{ asset('assets/img/logo/logo.png') }}",
+            "logo": "{{ asset('assets/img/logo/logo.png') }}",
+            "telephone": "{{ config('contact.phone_tel') }}",
+            "email": "{{ config('contact.email') }}",
+            "priceRange": "$$$",
+            "foundingDate": "2012",
+            "openingHours": "Mo-Su 00:00-23:59",
+            "address": {
+                "@@type": "PostalAddress",
+                "addressLocality": "Jersey City",
+                "addressRegion": "NJ",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@@type": "GeoCoordinates",
+                "latitude": "40.7178",
+                "longitude": "-74.0431"
+            },
+            "areaServed": [
+                { "@@type": "State", "name": "New Jersey" },
+                { "@@type": "State", "name": "New York" },
+                { "@@type": "City", "name": "Jersey City" },
+                { "@@type": "City", "name": "Newark" },
+                { "@@type": "City", "name": "New York City" }
+            ],
+            "sameAs": [
+                "https://www.facebook.com/profile.php?id=61581788001748",
+                "https://x.com/Alar_chauffeur",
+                "https://www.instagram.com/alar_chauffeur_service/",
+                "https://www.linkedin.com/in/alar-chauffeur-services-415862383",
+                "https://www.scoop.it/u/alar-chauffeur-service"
+            ]
+        },
+        {
+            "@@type": "WebSite",
+            "@@id": "{{ rtrim(config('app.url'), '/') }}/#website",
+            "url": "{{ rtrim(config('app.url'), '/') }}",
+            "name": "Alar Chauffeur Service",
+            "description": "Premium limousine and luxury chauffeur services in New Jersey, New York, and select U.S. markets.",
+            "publisher": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" },
+            "inLanguage": "en-US"
+        },
+        {
+            "@@type": "WebPage",
+            "@@id": "{{ rtrim(config('app.url'), '/') }}/#webpage",
+            "url": "{{ rtrim(config('app.url'), '/') }}",
+            "name": "Limo Service In New Jersey | Alar Chauffeur Service",
+            "description": "Premium limo service in New Jersey by ALAR Chauffeur Service. Luxury SUVs, sedans, and party buses for airport transfers, events, and group travel.",
+            "isPartOf": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#website" },
+            "about": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" },
+            "primaryImageOfPage": {
+                "@@type": "ImageObject",
+                "url": "{{ asset('assets/img/logo/logo.png') }}"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@@type": "OfferCatalog",
+            "@@id": "{{ rtrim(config('app.url'), '/') }}/#services",
+            "name": "Luxury Transportation Services",
+            "url": "{{ route('our-services') }}",
+            "itemListElement": [
+                {
+                    "@@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Airport Transportation",
+                        "url": "{{ route('services.airport-transportation') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Corporate Transportation",
+                        "url": "{{ route('services.corporate-transportation') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Wedding Limo Service",
+                        "url": "{{ route('services.wedding-limo') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Prom Limo Service",
+                        "url": "{{ route('services.prom-limo') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Hourly Limo Service",
+                        "url": "{{ route('services.hourly-limo') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 6,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Group Transportation",
+                        "url": "{{ route('services.group-transportation') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 7,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Party Bus Rental",
+                        "url": "{{ route('services.party-bus') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 8,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Sporting Event Transportation",
+                        "url": "{{ route('services.sporting-events') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 9,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Concert & Festival Transportation",
+                        "url": "{{ route('services.concert-festival') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 10,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Cruise Port Transfers",
+                        "url": "{{ route('services.cruise-port-transfers') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                },
+                {
+                    "@@type": "ListItem",
+                    "position": 11,
+                    "item": {
+                        "@@type": "Service",
+                        "name": "Chauffeured Service",
+                        "url": "{{ route('services.chauffeured-service') }}",
+                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== HERO: Split layout — left text, right image panel ===== -->

@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/custom-override.css') }}" />
+    @stack('schema')
     @stack('head')
 
     <!-- Google tag (gtag.js) -->

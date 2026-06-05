@@ -31,7 +31,7 @@ class ContactController extends Controller
             'email' => ['required', 'email'],
             'phone' => ['required', 'string'],
             'message' => ['required', 'string'],
-            'sms_consent' => ['accepted'],
+            'sms_consent' => ['nullable', 'boolean'],
         ];
 
         if (config('services.turnstile.site_key')) {

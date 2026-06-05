@@ -125,7 +125,7 @@
                         <!-- SMS Consent (Full Width) -->
                         <div class="ve-sms-consent-row mb-4">
                             <label class="ve-sms-consent-label" style="display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-weight: 400; text-transform: none; color: var(--ve-text); font-size: 14px; line-height: 1.6;">
-                                <input type="checkbox" name="sms_consent" value="1" required style="width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; border: 1px solid var(--ve-border); border-radius: 4px;">
+                                <input type="checkbox" name="sms_consent" value="1" style="width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; cursor: pointer; border: 1px solid var(--ve-border); border-radius: 4px;">
                                 @include('components.sms-consent-label')
                             </label>
                         </div>
