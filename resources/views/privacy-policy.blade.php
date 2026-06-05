@@ -136,7 +136,7 @@
                         to this Privacy Policy:
                     </p>
                     <ul>
-                        <li><strong>Program description:</strong> You may receive conversational, informational, and promotional text messages related to quotes, bookings, ride status, customer support, and occasional offers.</li>
+                        <li><strong>Program description:</strong> You may receive customer care and updates.</li>
                         <li><strong>Consent:</strong> You opt in by checking the consent box on our <a href="{{ route('contact-us') }}">contact page</a> and providing your mobile number. Consent is not a condition of purchase.</li>
                         <li><strong>Message frequency:</strong> Message frequency varies based on your bookings and interactions with us.</li>
                         <li><strong>Costs:</strong> Message and data rates may apply. Contact your wireless carrier for details about your plan.</li>
