@@ -696,72 +696,11 @@ party buses for airport transfers, events, and group travel. ')
     </div>
 </section>
 
-<!-- ===== TESTIMONIALS ===== -->
-<section class="ve-section ve-testimonials-section">
-    <div class="container">
-        <div class="ve-section-header text-center">
-            <span class="ve-section-tag">Client Stories</span>
-            <h2>What Our Clients <span>Say</span></h2>
-        </div>
-        <div class="owl-carousel ve-testimonials-slider">
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"The chauffeur was waiting for me before I even landed. The car was spotless and the ride was
-                    incredibly smooth. Best airport service ever!"</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">AM</div>
-                    <div><strong>Alex Morgan</strong><span>Client</span></div>
-                </div>
-            </div>
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"We used their stretch limo for our wedding and it was perfect! The driver was so helpful and
-                    patient. Highly recommend for any special event."</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">SP</div>
-                    <div><strong>Sarah Patel</strong><span>Client</span></div>
-                </div>
-            </div>
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Outstanding corporate service. Their attention to detail and professional attitude makes them our
-                    go to for all executive transport needs."</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">JL</div>
-                    <div><strong>James Liu</strong><span>Client</span></div>
-                </div>
-            </div>
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Booked for prom night and it exceeded all expectations. The limo was gorgeous and our driver
-                    was incredibly professional. Will use again!"</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">RK</div>
-                    <div><strong>Rachel Kim</strong><span>Client</span></div>
-                </div>
-            </div>
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Reliable, punctual and extremely comfortable. I've used Alar Chauffeur Service for all my business
-                    trips
-                    and they never disappoint. Five stars every time!"</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">DW</div>
-                    <div><strong>David Wilson</strong><span>Executive</span></div>
-                </div>
-            </div>
-            <div class="ve-testi-card">
-                <div class="ve-testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                <p>"Absolutely loved the group shuttle for our sporting event. Comfortable, on time and the driver
-                    knew all the best routes. Highly recommended!"</p>
-                <div class="ve-testi-author">
-                    <div class="ve-testi-avatar-text">MT</div>
-                    <div><strong>Mike Torres</strong><span>Client</span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@include('components.google-reviews', [
+    'reviews' => $reviews,
+    'googleReviewsUrl' => $googleReviewsUrl,
+    'googleWriteUrl' => $googleWriteUrl,
+])
 
 @include('components.cta')
 @endsection
