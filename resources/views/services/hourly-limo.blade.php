@@ -1,6 +1,126 @@
 @extends('main')
 @section('meta_title', 'Hourly Limo Service in New Jersey City | Alar Chauffeur Service')
 @section('meta_description', 'Book hourly limo service in New Jersey City for airport transfers, corporate travel, events, and flexible luxury chauffeur rides available 24/7.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/services/hourly-limo/#webpage",
+      "url": "https://alarchauffeurservice.com/services/hourly-limo",
+      "name": "Hourly Limo Service | ALAR Chauffeur Service",
+      "description": "Flexible hourly limo service with professional chauffeurs for business travel, events, city rides, and multi-stop transportation.",
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/services/hourly-limo/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/services/hourly-limo/#service"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/services/hourly-limo/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://alarchauffeurservice.com/services/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "Hourly Limo Service",
+          "item": "https://alarchauffeurservice.com/services/hourly-limo"
+        }
+      ]
+    },
+
+    {
+      "@@type": "LocalBusiness",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "priceRange": "$150 - $3000",
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/services/hourly-limo/#service",
+      "name": "Hourly Limo Service",
+      "serviceType": "Hourly Chauffeur Service",
+      "description": "Luxury hourly limo service with flexible scheduling, unlimited stops, and professional chauffeurs for business, events, and personal travel.",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+      "areaServed": [
+        "New Jersey",
+        "New York",
+        "California",
+        "Nevada",
+        "Washington",
+        "Kansas City"
+      ],
+      "offers": {
+        "@@type": "Offer",
+        "price": "150",
+        "highPrice": "3000",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut"
+      }
+    },
+
+    {
+      "@@type": "ImageObject",
+      "@@id": "https://alarchauffeurservice.com/#logo",
+      "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "contentUrl": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "caption": "ALAR Chauffeur Service Logo"
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== PAGE HERO ===== -->

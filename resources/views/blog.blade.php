@@ -1,6 +1,116 @@
 @extends('main')
 @section('meta_title', 'Blogs | Alar Chauffeur Service')
 @section('meta_description', 'Explore blogs of Alar Chauffeur Service, including airport transfers, corporate transportation, weddings, prom, group travel, cruise transfers, and special events.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/blog/#webpage",
+      "url": "https://alarchauffeurservice.com/blog/",
+      "name": "Blog | ALAR Chauffeur Service",
+      "description": "Latest chauffeur service, airport transfer, luxury transportation, travel, and limousine service articles from ALAR Chauffeur Service.",
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/blog/#breadcrumb"
+      },
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/blog/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://alarchauffeurservice.com/blog/"
+        }
+      ]
+    },
+
+    {
+      "@@type": "Blog",
+      "@@id": "https://alarchauffeurservice.com/blog/#blog",
+      "url": "https://alarchauffeurservice.com/blog/",
+      "name": "ALAR Chauffeur Service Blog",
+      "description": "Insights, travel tips, airport transportation guides, corporate travel information, wedding transportation advice, and luxury chauffeur service articles.",
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    },
+
+    {
+      "@@type": "ImageObject",
+      "@@id": "https://alarchauffeurservice.com/#logo",
+      "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "contentUrl": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "caption": "ALAR Chauffeur Service Logo"
+    },
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "logo": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "WebSite",
+      "@@id": "https://alarchauffeurservice.com/#website",
+      "url": "https://alarchauffeurservice.com/",
+      "name": "ALAR Chauffeur Service",
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO ===== -->

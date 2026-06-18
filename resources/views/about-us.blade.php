@@ -2,6 +2,87 @@
 @section('meta_title', 'Alar Chauffeur Service | About Us')
 @section('meta_description', 'Luxury transportation by ALAR Chauffeur Service in NJ. SUVs, sedans, and party buses for
 airport transfers, events, and group travel with professional chauffeurs.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "AboutPage",
+      "@@id": "https://alarchauffeurservice.com/about-us#aboutpage",
+      "url": "https://alarchauffeurservice.com/about-us",
+      "name": "About ALAR Chauffeur Service",
+      "description": "Learn about ALAR Chauffeur Service, a premium luxury transportation provider offering airport transfers, corporate travel, weddings, events, and FIFA World Cup 2026 transportation.",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      },
+
+      "mainEntity": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    },
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/about-us#webpage",
+      "url": "https://alarchauffeurservice.com/about-us",
+      "name": "About Us | ALAR Chauffeur Service",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      },
+
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+
+      "mainEntity": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <section class="ve-page-hero" style="background-image:url({{ asset('assets/img/banner/about-us.webp') }});">
     <div class="ve-page-hero-overlay"></div>

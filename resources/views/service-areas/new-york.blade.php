@@ -1,6 +1,65 @@
 @extends('main')
 @section('meta_title', 'Chauffeur Service In New York | Alar Chauffeur Service')
 @section('meta_description', 'Book Alar Chauffeur Service in New York for airport transfers, city-to-city rides, and luxury travel to MetLife Stadium. Comfortable, reliable, and professional service.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-york/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/new-york",
+      "name": "Chauffeur Service in New York",
+      "description": "Luxury chauffeur service in New York offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation."
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-york/#service",
+      "name": "Chauffeur Service in New York",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/new-york",
+      "areaServed": {
+        "@@type": "State",
+        "name": "New York"
+      },
+      "provider": {
+        "@@type": "Organization",
+        "name": "ALAR Chauffeur Service",
+        "url": "https://alarchauffeurservice.com"
+      },
+      "description": "Professional chauffeur service throughout New York including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation, airport transportation, and VIP transportation."
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-york/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "New York",
+          "item": "https://alarchauffeurservice.com/service-areas/new-york"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 

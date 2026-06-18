@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="canonical" href="{{ url()->current() }}" />
+    <meta name="google-site-verification" content="0ofhTEJk68G98MZAdCK4Uamv7r8U-hbBpsqbpYZ8-bc" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="@yield('meta_title', 'Alar Chauffeur Service | Luxury Transportation')" />
@@ -18,8 +19,7 @@
     <meta property="og:type" content="website" />
 
     <title>
-        @yield('meta_title', 'Alar Chauffeur Service | Luxury
-        Transportation')
+        @yield('meta_title', 'Alar Chauffeur Service | Luxury Transportation')
     </title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('assets/img/logo/fav-icon.png') }}" />

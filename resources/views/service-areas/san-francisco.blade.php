@@ -1,6 +1,120 @@
 @extends('main')
 @section('meta_title', 'Luxury Limo Service San Francisco | Private Chauffeur Rides')
 @section('meta_description', 'Book luxury limo service in San Francisco for airport transfers, corporate travel, weddings & city rides. Premium chauffeur service.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/san-francisco/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/san-francisco",
+      "name": "Chauffeur Service in San Francisco",
+      "description": "Luxury chauffeur service in San Francisco offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation.",
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/service-areas/san-francisco/#service"
+      },
+      "primaryImageOfPage": {
+        "@@type": "ImageObject",
+        "url": "https://alarchauffeurservice.com/wp-content/uploads/san-francisco-chauffeur-service.jpg"
+      }
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/san-francisco/#service",
+      "name": "Chauffeur Service in San Francisco",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/san-francisco",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#business"
+      },
+      "areaServed": {
+        "@@type": "City",
+        "name": "San Francisco"
+      },
+      "description": "Professional chauffeur service throughout San Francisco including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation and VIP transportation.",
+      "offers": {
+        "@@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@@type": "FAQPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/san-francisco/#faq",
+      "mainEntity": [
+        {
+          "@@type": "Question",
+          "name": "How can I book a professional chauffeur in San Francisco?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "You can book a chauffeur service in San Francisco by contacting ALAR Chauffeur Service through our website, phone, or online reservation system."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Which airports in San Francisco do you serve?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "We provide luxury airport transportation to and from San Francisco International Airport (SFO), Oakland International Airport (OAK), San Jose Mineta International Airport (SJC), and other nearby airports."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Do you provide transportation for events in San Francisco?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Yes, we provide chauffeur transportation for corporate events, concerts, sporting events, conventions, weddings, and private occasions throughout San Francisco."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Do you offer corporate transportation in San Francisco?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Yes, we provide executive transportation for business meetings, conferences, roadshows, and corporate travel throughout San Francisco."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "What vehicles are available?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Our fleet includes luxury sedans, executive SUVs, sprinter vans, and group transportation vehicles for airport transfers, business travel, and special events."
+          }
+        }
+      ]
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/san-francisco/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "San Francisco",
+          "item": "https://alarchauffeurservice.com/service-areas/san-francisco"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO (Sophisticated Text-Only) ===== -->

@@ -1,6 +1,73 @@
 @extends('main')
 @section('meta_title', 'Our Fleet | Alar Chauffeur Service')
 @section('meta_description', 'View the Alar Chauffeur Service fleet of luxury sedans, SUVs, limousines, sprinter vans, and group transportation vehicles for executive and special event travel.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+
+  "@@graph": [
+
+    {
+      "@@type": "LocalBusiness",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "priceRange": "$250-$3000",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+
+      "areaServed": [
+        "New Jersey",
+        "New York",
+        "California",
+        "Nevada",
+        "Kansas City"
+      ]
+    },
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/our-fleet#webpage",
+      "url": "https://alarchauffeurservice.com/our-fleet",
+      "name": "Our Luxury Fleet | ALAR Chauffeur Service",
+      "description": "Luxury fleet including sedans, SUVs, stretch limousines, Sprinter vans, minibuses, and coach buses for all transportation needs.",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+
+      "mainEntity": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      }
+    },
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png"
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO ===== -->

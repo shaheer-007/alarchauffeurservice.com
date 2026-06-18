@@ -1,6 +1,125 @@
 @extends('main')
 @section('meta_title', 'Sporting Event Chauffeur Service in New Jersey | Alar Chauffeur Service')
 @section('meta_description', 'Book professional sporting event chauffeur service in New Jersey with Alar Chauffeur Service. Luxury transportation to MetLife Stadium, Madison Square Garden, Yankee Stadium, Citi Field, Prudential Center, and major sporting events throughout New Jersey and New York.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/services/sporting-events/#webpage",
+      "url": "https://alarchauffeurservice.com/services/sporting-events",
+      "name": "Sporting Events Limo Service | ALAR Chauffeur Service",
+      "description": "Luxury sporting event transportation for games, stadium events, concerts, and group travel with professional chauffeurs.",
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/services/sporting-events/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/services/sporting-events/#service"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/services/sporting-events/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://alarchauffeurservice.com/services/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "Sporting Events",
+          "item": "https://alarchauffeurservice.com/services/sporting-events"
+        }
+      ]
+    },
+
+    {
+      "@@type": "ImageObject",
+      "@@id": "https://alarchauffeurservice.com/#logo",
+      "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "contentUrl": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "caption": "ALAR Chauffeur Service Logo"
+    },
+
+    {
+      "@@type": "LocalBusiness",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "priceRange": "$150 - $3000",
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/services/sporting-events/#service",
+      "name": "Sporting Events Limo Service",
+      "serviceType": "Sports Event Transportation",
+      "description": "Premium sporting event transportation for stadium games, concerts, and group travel with luxury vehicles and professional chauffeurs.",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+      "areaServed": [
+        "New Jersey",
+        "New York",
+        "California",
+        "Nevada",
+        "Washington",
+        "Kansas City"
+      ],
+      "offers": {
+        "@@type": "Offer",
+        "price": "150",
+        "highPrice": "3000",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== PAGE HERO ===== -->

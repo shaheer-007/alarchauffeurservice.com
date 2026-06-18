@@ -1,6 +1,128 @@
 @extends('main')
 @section('meta_title', 'Contact Us | Alar Chauffeur Service')
 @section('meta_description', 'Contact Alar Chauffeur Service for bookings, quotes, airport transfers, and luxury transportation assistance in New Jersey, New York, and surrounding service areas.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "ContactPage",
+      "@@id": "https://alarchauffeurservice.com/contact-us/#contactpage",
+      "url": "https://alarchauffeurservice.com/contact-us/",
+      "name": "Contact Us | ALAR Chauffeur Service",
+      "description": "Contact ALAR Chauffeur Service for airport transfers, corporate travel, weddings, events, and luxury chauffeur services.",
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/contact-us/#breadcrumb"
+      },
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/contact-us/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "https://alarchauffeurservice.com/contact-us/"
+        }
+      ]
+    },
+
+    {
+      "@@type": "ImageObject",
+      "@@id": "https://alarchauffeurservice.com/#logo",
+      "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "contentUrl": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "caption": "ALAR Chauffeur Service Logo"
+    },
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "logo": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "priceRange": "$150 - $3000",
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "LocalBusiness",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "priceRange": "$150 - $3000",
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@@type": "ContactPoint",
+        "telephone": "+1-929-500-0172",
+        "contactType": "customer service",
+        "email": "limo@alarchauffeurservice.com",
+        "availableLanguage": ["English"]
+      },
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== PAGE HERO ===== -->

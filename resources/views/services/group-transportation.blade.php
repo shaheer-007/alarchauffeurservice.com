@@ -1,6 +1,125 @@
 @extends('main')
 @section('meta_title', 'Group Transportation in New Jersey | Alar Chauffeur Service')
 @section('meta_description', 'Book group transportation in New Jersey for corporate events, airport transfers, weddings, sports events, and private group travel.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/services/group-transportation/#webpage",
+      "url": "https://alarchauffeurservice.com/services/group-transportation",
+      "name": "Group Transportation Service | ALAR Chauffeur Service",
+      "description": "Luxury group transportation service for airport transfers, corporate groups, weddings, events, sports, and large group travel with professional chauffeurs.",
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/services/group-transportation/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/services/group-transportation/#service"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/services/group-transportation/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://alarchauffeurservice.com/services/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "Group Transportation",
+          "item": "https://alarchauffeurservice.com/services/group-transportation"
+        }
+      ]
+    },
+
+    {
+      "@@type": "ImageObject",
+      "@@id": "https://alarchauffeurservice.com/#logo",
+      "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "contentUrl": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "caption": "ALAR Chauffeur Service Logo"
+    },
+
+    {
+      "@@type": "LocalBusiness",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "priceRange": "$150 - $3000",
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9",
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService"
+      ]
+    },
+
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/services/group-transportation/#service",
+      "name": "Group Transportation Service",
+      "serviceType": "Group Travel & Shuttle Service",
+      "description": "Reliable and luxury group transportation service for corporate travel, airport transfers, weddings, sporting events, concerts, and large group movements.",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+      "areaServed": [
+        "New Jersey",
+        "New York",
+        "California",
+        "Nevada",
+        "Washington",
+        "Kansas City"
+      ],
+      "offers": {
+        "@@type": "Offer",
+        "price": "150",
+        "highPrice": "3000",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== PAGE HERO ===== -->

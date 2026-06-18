@@ -1,6 +1,120 @@
 @extends('main')
 @section('meta_title', 'California Chauffeur & Limo Service | Airport Transfers, Private City Rides & NJ Sports Travel')
 @section('meta_description', 'Experience premium chauffeur service in California with airport transfers, executive travel, and long-distance rides. Book luxury limo service for business, events, and trips to MetLife Stadium.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/california/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/california",
+      "name": "Chauffeur Service in California",
+      "description": "Luxury chauffeur service in California offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation.",
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/service-areas/california/#service"
+      },
+      "primaryImageOfPage": {
+        "@@type": "ImageObject",
+        "url": "https://alarchauffeurservice.com/wp-content/uploads/california-chauffeur-service.jpg"
+      }
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/california/#service",
+      "name": "Chauffeur Service in California",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/california",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#business"
+      },
+      "areaServed": {
+        "@@type": "State",
+        "name": "California"
+      },
+      "description": "Professional chauffeur service throughout California including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation and VIP transportation.",
+      "offers": {
+        "@@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@@type": "FAQPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/california/#faq",
+      "mainEntity": [
+        {
+          "@@type": "Question",
+          "name": "How can I book a professional chauffeur in California?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "You can book a chauffeur service in California by contacting ALAR Chauffeur Service through our website, phone, or online reservation system."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Which airports in California do you serve?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "We provide luxury airport transportation to and from major California airports including Los Angeles International Airport, San Francisco International Airport, San Diego International Airport and other regional airports."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Do you provide transportation for events in California?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Yes, we provide chauffeur transportation for corporate events, concerts, sporting events, conventions, weddings and private occasions throughout California."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Do you offer corporate transportation in California?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Yes, we provide executive transportation for business meetings, conferences, roadshows and corporate travel throughout California."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "What vehicles are available?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Our fleet includes luxury sedans, executive SUVs, sprinter vans and group transportation vehicles for airport transfers, business travel and special events."
+          }
+        }
+      ]
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/california/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "California",
+          "item": "https://alarchauffeurservice.com/service-areas/california"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO (Sophisticated Text-Only) ===== -->

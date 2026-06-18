@@ -1,6 +1,158 @@
 @extends('main')
 @section('meta_title', 'Our Services | Alar Chauffeur Service')
 @section('meta_description', 'Explore luxury transportation services from Alar Chauffeur Service, including airport transfers, corporate transportation, weddings, prom, group travel, cruise transfers, and special events.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/our-services#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Our Services",
+          "item": "https://alarchauffeurservice.com/our-services"
+        }
+      ]
+    },
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/our-services#webpage",
+      "url": "https://alarchauffeurservice.com/our-services",
+      "name": "Our Chauffeur & Limo Services | ALAR Chauffeur Service",
+      "description": "Explore all luxury chauffeur services including airport transportation, corporate travel, hourly limo, prom limo, sporting events, group transportation, and FIFA World Cup 2026 transportation.",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+
+      "mainEntity": {
+        "@@id": "https://alarchauffeurservice.com/#service-directory"
+      }
+    },
+
+    {
+      "@@type": "ItemList",
+      "@@id": "https://alarchauffeurservice.com/#service-directory",
+      "name": "Chauffeur Service Directory",
+
+      "itemListElement": [
+
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@@type": "Service",
+            "name": "Airport Transportation",
+            "url": "https://alarchauffeurservice.com/services/airport-transportation"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@@type": "Service",
+            "name": "Corporate Transportation",
+            "url": "https://alarchauffeurservice.com/services/corporate-transportation"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@@type": "Service",
+            "name": "Hourly Limo Service",
+            "url": "https://alarchauffeurservice.com/services/hourly-limo"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@@type": "Service",
+            "name": "Prom Limo Service",
+            "url": "https://alarchauffeurservice.com/services/prom-limo"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@@type": "Service",
+            "name": "Sporting Events Transportation",
+            "url": "https://alarchauffeurservice.com/services/sporting-events"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@@type": "Service",
+            "name": "Group Transportation",
+            "url": "https://alarchauffeurservice.com/services/group-transportation"
+          }
+        },
+
+        {
+          "@@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@@type": "Service",
+            "name": "FIFA World Cup 2026 Transportation",
+            "url": "https://alarchauffeurservice.com/services/fifa-world-cup-2026-transportation"
+          }
+        }
+
+      ]
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO ===== -->

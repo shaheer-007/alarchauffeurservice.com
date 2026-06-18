@@ -1,6 +1,158 @@
 @extends('main')
 @section('meta_title', 'Book Online | Alar Chauffeur Service')
 @section('meta_description', 'Reserve your luxury chauffeur service online with Alar Chauffeur Service for airport transportation, executive travel, weddings, group transportation, and more.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      }
+    },
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/book-online#webpage",
+      "url": "https://alarchauffeurservice.com/book-online",
+      "name": "Book Online Chauffeur & Limo Service",
+      "description": "Book luxury chauffeur service, airport transfer, corporate travel, wedding transportation, party bus and FIFA World Cup 2026 limo service online.",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      }
+    },
+
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/#booking-service",
+      "name": "Online Chauffeur Booking Service",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+
+      "serviceType": "Luxury Transportation Booking",
+
+      "areaServed": [
+        "New Jersey",
+        "New York",
+        "California",
+        "Nevada",
+        "Kansas City"
+      ],
+
+      "hasOfferCatalog": {
+        "@@type": "OfferCatalog",
+        "name": "Book Chauffeur Services Online",
+
+        "itemListElement": [
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Airport Transfer Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Corporate Travel Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Wedding Transportation Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Hourly Chauffeur Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Black Car Service Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "Party Bus Booking"
+            }
+          },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "FIFA World Cup 2026 Transportation Booking",
+              "url": "https://alarchauffeurservice.com/services/fifa-world-cup-2026-transportation"
+            }
+          }
+
+        ]
+      }
+    },
+
+    {
+      "@@type": "ReserveAction",
+      "@@id": "https://alarchauffeurservice.com/book-online#reserve",
+      "name": "Reserve Chauffeur Service Online",
+      "target": {
+        "@@type": "EntryPoint",
+        "urlTemplate": "https://alarchauffeurservice.com/book-online",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@@type": "Reservation",
+        "name": "Luxury Chauffeur Booking Confirmation"
+      }
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- ===== PAGE HERO ===== -->
     <section class="ve-page-hero" style="background-image:url({{ asset('assets/img/banner/book-online.webp') }});">

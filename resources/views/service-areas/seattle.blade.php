@@ -1,6 +1,70 @@
 @extends('main')
 @section('meta_title', 'Luxury Chauffeur Service in Seattle | Alar Chauffeur Service')
 @section('meta_description', 'Travel with confidence using Alar Chauffeur Service in Seattle for airport transfers, executive transportation, city travel, and premium chauffeur service.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/seattle/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/seattle",
+      "name": "Chauffeur Service in Seattle",
+      "description": "Luxury chauffeur service in Seattle offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation.",
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/service-areas/seattle/#service"
+      }
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/seattle/#service",
+      "name": "Chauffeur Service in Seattle",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/seattle",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#business"
+      },
+      "areaServed": {
+        "@@type": "City",
+        "name": "Seattle"
+      },
+      "description": "Professional chauffeur service throughout Seattle including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation, and VIP transportation.",
+      "offers": {
+        "@@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/seattle/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "Seattle",
+          "item": "https://alarchauffeurservice.com/service-areas/seattle"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO (Sophisticated Text-Only) ===== -->

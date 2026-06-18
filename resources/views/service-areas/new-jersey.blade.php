@@ -1,6 +1,111 @@
 @extends('main')
 @section('meta_title', 'New Jersey City Chauffeur & Limo Service | Airport Transfers, County Coverage & Luxury Rides')
 @section('meta_description', 'Book Alar Chauffeur Service in New Jersey City for airport transfers, county-wide limo service, and luxury rides to MetLife Stadium. Reliable, private, and professional transportation.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-jersey/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/new-jersey",
+      "name": "Chauffeur Service in New Jersey",
+      "description": "Luxury chauffeur service in New Jersey offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation."
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-jersey/#service",
+      "name": "Chauffeur Service in New Jersey",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/new-jersey",
+      "areaServed": {
+        "@@type": "State",
+        "name": "New Jersey"
+      },
+      "provider": {
+        "@@type": "Organization",
+        "name": "ALAR Chauffeur Service",
+        "url": "https://alarchauffeurservice.com"
+      },
+      "description": "Professional chauffeur service throughout New Jersey including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation, and VIP transportation."
+    },
+    {
+      "@@type": "FAQPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-jersey/#faq",
+      "mainEntity": [
+        {
+          "@@type": "Question",
+          "name": "How can I book a professional chauffeur in New Jersey?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "You can book a chauffeur service in New Jersey by contacting ALAR Chauffeur Service through our website, phone, or online reservation system. Advance booking is recommended for airport transfers, corporate travel, and special events."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Which airports in New Jersey do you serve?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "We provide transportation to and from Newark Liberty International Airport as well as connections to JFK Airport and LaGuardia Airport for travelers throughout New Jersey."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Is ALAR Chauffeur Service available in all New Jersey counties?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "We serve many locations across New Jersey, including major cities, business districts, residential areas, airports, and event venues."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "Do you offer transportation to MetLife Stadium?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Yes, we provide chauffeur transportation to MetLife Stadium for sporting events, concerts, private groups, and special occasions."
+          }
+        },
+        {
+          "@@type": "Question",
+          "name": "What types of vehicles are available?",
+          "acceptedAnswer": {
+            "@@type": "Answer",
+            "text": "Our fleet includes luxury sedans, executive SUVs, sprinter vans, and larger group transportation options suitable for airport transfers, business travel, and special events."
+          }
+        }
+      ]
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/new-jersey/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "New Jersey",
+          "item": "https://alarchauffeurservice.com/service-areas/new-jersey"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO (Sophisticated Text-Only) ===== -->

@@ -1,6 +1,70 @@
 @extends('main')
 @section('meta_title', 'Luxury Transportation in Nevada | Private Chauffeur')
 @section('meta_description', 'Book luxury transportation in Nevada for airport transfers, corporate travel, events & private chauffeur rides across Las Vegas and Reno.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/service-areas/nevada/#webpage",
+      "url": "https://alarchauffeurservice.com/service-areas/nevada",
+      "name": "Chauffeur Service in Nevada",
+      "description": "Luxury chauffeur service in Nevada offering airport transfers, black car service, corporate transportation, wedding transportation, hourly chauffeur service, and event transportation.",
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/service-areas/nevada/#service"
+      }
+    },
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/service-areas/nevada/#service",
+      "name": "Chauffeur Service in Nevada",
+      "serviceType": "Luxury Chauffeur Transportation",
+      "url": "https://alarchauffeurservice.com/service-areas/nevada",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#business"
+      },
+      "areaServed": {
+        "@@type": "State",
+        "name": "Nevada"
+      },
+      "description": "Professional chauffeur service throughout Nevada including airport transfers, corporate travel, black car service, wedding transportation, sporting event transportation, group transportation, and VIP transportation.",
+      "offers": {
+        "@@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/service-areas/nevada/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Service Areas",
+          "item": "https://alarchauffeurservice.com/service-areas"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "Nevada",
+          "item": "https://alarchauffeurservice.com/service-areas/nevada"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- ===== PAGE HERO (Sophisticated Text-Only) ===== -->

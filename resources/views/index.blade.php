@@ -6,189 +6,225 @@ party buses for airport transfers, events, and group travel. ')
 @push('schema')
 <script type="application/ld+json">
 {
-    "@@context": "https://schema.org",
-    "@@graph": [
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "email": "limo@alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61581788001748",
+        "https://www.instagram.com/alar_chauffeur_service/",
+        "https://x.com/Alar_chauffeur",
+        "https://linkedin.com/in/alar-chauffeur-services-415862383",
+        "https://www.youtube.com/@AlarChauffeurService",
+        "https://www.scoop.it/u/alar-chauffeur-service",
+        "https://maps.app.goo.gl/fKaPB2j36gVbcbcq9"
+      ],
+
+      "contactPoint": {
+        "@@type": "ContactPoint",
+        "telephone": "+1-929-500-0172",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": ["English"]
+      },
+
+      "keywords": [
+        "airport transfer",
+        "luxury chauffeur service",
+        "black car service",
+        "corporate travel",
+        "wedding transportation",
+        "party bus service",
+        "FIFA World Cup 2026 transportation"
+      ],
+
+      "knowsAbout": [
+        "Airport Transfer",
+        "Luxury Chauffeur Service",
+        "Corporate Travel",
+        "Black Car Service",
+        "Wedding Transportation",
+        "Event Transportation",
+        "Hourly Chauffeur Service",
+        "Group Transportation",
+        "Party Bus Service",
+        "Prom Night Service",
+        "Concert Transportation",
+        "Festival Transportation",
+        "Sporting Event Transportation",
+        "VIP Transportation",
+        "Stadium Transportation",
+        "JFK Airport Transportation",
+        "LaGuardia Airport Transportation",
+        "Newark Airport Transportation",
+        "Los Angeles Airport Transportation",
+        "San Francisco Airport Transportation",
+        "Las Vegas Airport Transportation",
+        "Seattle Airport Transportation",
+        "FIFA World Cup 2026 Transportation"
+      ]
+    },
+
+    {
+      "@@type": "LimousineService",
+      "@@id": "https://alarchauffeurservice.com/#localbusiness",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+      "priceRange": "$250-$3000",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+
+      "openingHoursSpecification": [
         {
-            "@@type": "LimousineBusiness",
-            "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization",
-            "name": "Alar Chauffeur Service",
-            "url": "{{ rtrim(config('app.url'), '/') }}",
-            "description": "Premium limousine and luxury chauffeur services in New Jersey, New York, and select U.S. markets. Airport transfers, corporate travel, weddings, events, and group transportation.",
-            "image": "{{ asset('assets/img/logo/logo.png') }}",
-            "logo": "{{ asset('assets/img/logo/logo.png') }}",
-            "telephone": "{{ config('contact.phone_tel') }}",
-            "email": "{{ config('contact.email') }}",
-            "priceRange": "$$$",
-            "foundingDate": "2012",
-            "openingHours": "Mo-Su 00:00-23:59",
-            "address": {
-                "@@type": "PostalAddress",
-                "addressLocality": "Jersey City",
-                "addressRegion": "NJ",
-                "addressCountry": "US"
-            },
-            "geo": {
-                "@@type": "GeoCoordinates",
-                "latitude": "40.7178",
-                "longitude": "-74.0431"
-            },
-            "areaServed": [
-                { "@@type": "State", "name": "New Jersey" },
-                { "@@type": "State", "name": "New York" },
-                { "@@type": "City", "name": "Jersey City" },
-                { "@@type": "City", "name": "Newark" },
-                { "@@type": "City", "name": "New York City" }
-            ],
-            "sameAs": [
-                "https://www.facebook.com/profile.php?id=61581788001748",
-                "https://x.com/Alar_chauffeur",
-                "https://www.instagram.com/alar_chauffeur_service/",
-                "https://www.linkedin.com/in/alar-chauffeur-services-415862383",
-                "https://www.scoop.it/u/alar-chauffeur-service"
-            ]
-        },
-        {
-            "@@type": "WebSite",
-            "@@id": "{{ rtrim(config('app.url'), '/') }}/#website",
-            "url": "{{ rtrim(config('app.url'), '/') }}",
-            "name": "Alar Chauffeur Service",
-            "description": "Premium limousine and luxury chauffeur services in New Jersey, New York, and select U.S. markets.",
-            "publisher": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" },
-            "inLanguage": "en-US"
-        },
-        {
-            "@@type": "WebPage",
-            "@@id": "{{ rtrim(config('app.url'), '/') }}/#webpage",
-            "url": "{{ rtrim(config('app.url'), '/') }}",
-            "name": "Limo Service In New Jersey | Alar Chauffeur Service",
-            "description": "Premium limo service in New Jersey by ALAR Chauffeur Service. Luxury SUVs, sedans, and party buses for airport transfers, events, and group travel.",
-            "isPartOf": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#website" },
-            "about": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" },
-            "primaryImageOfPage": {
-                "@@type": "ImageObject",
-                "url": "{{ asset('assets/img/logo/logo.png') }}"
-            },
-            "inLanguage": "en-US"
-        },
-        {
-            "@@type": "OfferCatalog",
-            "@@id": "{{ rtrim(config('app.url'), '/') }}/#services",
-            "name": "Luxury Transportation Services",
-            "url": "{{ route('our-services') }}",
-            "itemListElement": [
-                {
-                    "@@type": "ListItem",
-                    "position": 1,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Airport Transportation",
-                        "url": "{{ route('services.airport-transportation') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 2,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Corporate Transportation",
-                        "url": "{{ route('services.corporate-transportation') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 3,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Wedding Limo Service",
-                        "url": "{{ route('services.wedding-limo') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 4,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Prom Limo Service",
-                        "url": "{{ route('services.prom-limo') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 5,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Hourly Limo Service",
-                        "url": "{{ route('services.hourly-limo') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 6,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Group Transportation",
-                        "url": "{{ route('services.group-transportation') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 7,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Party Bus Rental",
-                        "url": "{{ route('services.party-bus') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 8,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Sporting Event Transportation",
-                        "url": "{{ route('services.sporting-events') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 9,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Concert & Festival Transportation",
-                        "url": "{{ route('services.concert-festival') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 10,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Cruise Port Transfers",
-                        "url": "{{ route('services.cruise-port-transfers') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                },
-                {
-                    "@@type": "ListItem",
-                    "position": 11,
-                    "item": {
-                        "@@type": "Service",
-                        "name": "Chauffeured Service",
-                        "url": "{{ route('services.chauffeured-service') }}",
-                        "provider": { "@@id": "{{ rtrim(config('app.url'), '/') }}/#organization" }
-                    }
-                }
-            ]
+          "@@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
         }
-    ]
+      ],
+
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],
+      "currenciesAccepted": "USD",
+
+      "areaServed": [
+        { "@@type": "State", "name": "New Jersey" },
+        { "@@type": "State", "name": "New York" },
+        { "@@type": "State", "name": "California" },
+        { "@@type": "State", "name": "Nevada" },
+
+        { "@@type": "City", "name": "Kansas City" },
+
+        { "@@type": "Airport", "name": "John F. Kennedy International Airport" },
+        { "@@type": "Airport", "name": "LaGuardia Airport" },
+        { "@@type": "Airport", "name": "Newark Liberty International Airport" },
+        { "@@type": "Airport", "name": "Los Angeles International Airport" },
+        { "@@type": "Airport", "name": "San Francisco International Airport" },
+        { "@@type": "Airport", "name": "Harry Reid International Airport" },
+        { "@@type": "Airport", "name": "Seattle-Tacoma International Airport" }
+      ],
+
+      "serviceType": [
+        "Airport Transfer",
+        "Corporate Travel",
+        "Wedding Transportation",
+        "Hourly Chauffeur Service",
+        "Black Car Service",
+        "Party Bus Service",
+        "Concert Transportation",
+        "Festival Transportation",
+        "Sporting Event Transportation",
+        "Prom Night Service",
+        "Group Transportation",
+        "VIP Transportation",
+        "Stadium Transportation",
+        "FIFA World Cup 2026 Transportation"
+      ]
+    },
+
+    {
+      "@@type": "Service",
+      "@@id": "https://alarchauffeurservice.com/#services",
+      "name": "Luxury Chauffeur Transportation Services",
+      "provider": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+
+      "hasOfferCatalog": {
+        "@@type": "OfferCatalog",
+        "name": "All Chauffeur Services",
+
+        "itemListElement": [
+
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Airport Transfer" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Corporate Travel" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Wedding Transportation" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Hourly Chauffeur Service" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Black Car Service" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Party Bus Service" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Concert Transportation" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Festival Transportation" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Sporting Events Transportation" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Prom Night Service" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Group Transportation" } },
+          { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "VIP Transportation" } },
+
+          {
+            "@@type": "Offer",
+            "itemOffered": {
+              "@@type": "Service",
+              "name": "FIFA World Cup 2026 Transportation",
+              "url": "https://alarchauffeurservice.com/services/fifa-world-cup-2026-transportation",
+              "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+              "description": "Premium chauffeur and VIP transportation service for FIFA World Cup 2026 including airport transfers, stadium transportation, corporate group travel, and event mobility."
+            }
+          }
+
+        ]
+      }
+    },
+
+    {
+      "@@type": "WebSite",
+      "@@id": "https://alarchauffeurservice.com/#website",
+      "url": "https://alarchauffeurservice.com",
+      "name": "ALAR Chauffeur Service",
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      },
+      "potentialAction": {
+        "@@type": "SearchAction",
+        "target": "https://alarchauffeurservice.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/#homepage",
+      "url": "https://alarchauffeurservice.com",
+      "name": "Luxury Chauffeur Service | Airport Transfers | Corporate & Events",
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
+
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#localbusiness"
+      },
+
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      }
+    }
+
+  ]
 }
 </script>
 @endpush

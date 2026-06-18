@@ -1,6 +1,123 @@
 @extends('main')
 @section('meta_title', 'Luxury Chauffeur Service for FIFA 2026 in NYC & New Jersey | Alar')
 @section('meta_description', 'Experience the FIFA World Cup 2026 in style with our premium chauffeur services across New York City and New Jersey. Book your luxury transport today.')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@@graph": [
+
+    {
+      "@@type": "WebPage",
+      "@@id": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey/#webpage",
+      "url": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey",
+      "name": "Luxury Chauffeur Service for FIFA 2026 in NYC & New Jersey",
+      "description": "Luxury chauffeur and black car service for FIFA World Cup 2026 in NYC and New Jersey offering airport transfers, stadium rides, and VIP transport.",
+      "isPartOf": {
+        "@@id": "https://alarchauffeurservice.com/#website"
+      },
+      "breadcrumb": {
+        "@@id": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+      "about": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      }
+    },
+
+    {
+      "@@type": "BreadcrumbList",
+      "@@id": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey/#breadcrumb",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alarchauffeurservice.com/"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://alarchauffeurservice.com/blog"
+        },
+        {
+          "@@type": "ListItem",
+          "position": 3,
+          "name": "FIFA 2026 Chauffeur Service NYC NJ",
+          "item": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey"
+        }
+      ]
+    },
+
+    {
+      "@@type": "Organization",
+      "@@id": "https://alarchauffeurservice.com/#organization",
+      "name": "ALAR Chauffeur Service",
+      "url": "https://alarchauffeurservice.com",
+      "telephone": "+1-929-500-0172",
+      "email": "limo@alarchauffeurservice.com",
+
+      "address": {
+        "@@type": "PostalAddress",
+        "streetAddress": "10 Fairmount Ave",
+        "addressLocality": "Edison",
+        "addressRegion": "NJ",
+        "postalCode": "08820",
+        "addressCountry": "US"
+      },
+
+      "logo": {
+        "@@type": "ImageObject",
+        "url": "https://alarchauffeurservice.com/assets/img/logo/logo.png"
+      },
+      "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png"
+    },
+
+    {
+      "@@type": "BlogPosting",
+      "@@id": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey/#blogposting",
+      "mainEntityOfPage": {
+        "@@id": "https://alarchauffeurservice.com/blog/luxury-chauffeur-service-for-fifa-2026-in-nyc-new-jersey/#webpage"
+      },
+      "headline": "Luxury Chauffeur Service for FIFA 2026 in NYC & New Jersey",
+      "description": "Premium chauffeur service for FIFA World Cup 2026 providing luxury transportation across New York City and New Jersey including airport transfers and stadium travel.",
+
+      "author": {
+        "@@type": "Organization",
+        "name": "ALAR Chauffeur Service",
+        "url": "https://alarchauffeurservice.com/"
+      },
+
+      "publisher": {
+        "@@id": "https://alarchauffeurservice.com/#organization"
+      },
+
+      "image": {
+        "@@id": "https://alarchauffeurservice.com/#logo"
+      },
+
+      "datePublished": "2026-06-19T00:00:00+05:00",
+      "dateModified": "2026-06-19T00:00:00+05:00",
+      "inLanguage": "en-US",
+      "articleSection": "Transportation Services",
+      "keywords": [
+        "FIFA 2026 transportation",
+        "NYC chauffeur service",
+        "New Jersey limo service",
+        "World Cup 2026 travel",
+        "luxury black car service"
+      ]
+    }
+
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
 <!-- ===== PAGE HERO ===== -->
