@@ -16,7 +16,7 @@
         </div>
 
         @if(!empty($reviews['reviews']))
-            <div class="owl-carousel ve-testimonials-slider">
+            <div class="row g-4 ve-google-reviews-grid">
                 @foreach($reviews['reviews'] as $review)
                     @php
                         $initials = collect(explode(' ', $review['author']))
@@ -25,7 +25,8 @@
                             ->take(2)
                             ->join('');
                     @endphp
-                    <div class="ve-testi-card">
+                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ve-testi-card h-100">
                         <div class="ve-testi-stars">
                             @for($i = 0; $i < ($review['rating'] ?? 5); $i++)
                                 &#9733;
@@ -43,6 +44,7 @@
                                 <span>{{ $review['time'] }}</span>
                             </div>
                         </div>
+                    </div>
                     </div>
                 @endforeach
             </div>

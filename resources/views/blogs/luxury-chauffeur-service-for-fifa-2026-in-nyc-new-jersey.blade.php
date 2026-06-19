@@ -58,7 +58,7 @@
       "@@id": "https://alarchauffeurservice.com/#organization",
       "name": "ALAR Chauffeur Service",
       "url": "https://alarchauffeurservice.com",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
 
       "address": {

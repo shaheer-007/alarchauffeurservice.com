@@ -61,6 +61,8 @@
                             target="_blank"><i class="fa fa-map-marker"></i> {{ config('contact.location') }}</a></li>
                     <li><a href="tel:{{ config('contact.phone_tel') }}"><i class="fa fa-phone"></i>
                             {{ config('contact.phone_display') }}</a></li>
+                    <li><a href="tel:{{ config('contact.phone_2_tel') }}"><i class="fa fa-phone"></i>
+                            {{ config('contact.phone_2_display') }}</a></li>
                     <li><a href="mailto:{{ config('contact.email') }}"><i class="fa fa-envelope"></i>
                             {{ config('contact.email') }}</a></li>
                     <li><i class="fa fa-clock-o"></i> 24/7</li>

@@ -67,7 +67,7 @@ reliable luxury chauffeurs.')
       "@@id": "https://alarchauffeurservice.com/#localbusiness",
       "name": "ALAR Chauffeur Service",
       "url": "https://alarchauffeurservice.com",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "priceRange": "$150 - $3000",

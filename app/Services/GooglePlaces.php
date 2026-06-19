@@ -9,7 +9,7 @@ class GooglePlaces
 {
     public function details(): array
     {
-        $cached = Cache::get('google.place.details');
+        $cached = Cache::get('google.place.details.v2');
         if ($cached !== null) {
             return $cached;
         }
@@ -30,17 +30,21 @@ class GooglePlaces
             'name'    => $resp['displayName']['text'] ?? 'Google Reviews',
             'rating'  => $resp['rating'] ?? null,
             'total'   => $resp['userRatingCount'] ?? 0,
-            'reviews' => collect($resp['reviews'] ?? [])->map(fn ($rev) => [
-                'author'  => $rev['authorAttribution']['displayName'] ?? 'Google user',
-                'profile' => $rev['authorAttribution']['uri'] ?? null,
-                'rating'  => $rev['rating'] ?? null,
-                'text'    => $rev['text']['text'] ?? '',
-                'time'    => $rev['relativePublishTimeDescription'] ?? '',
-            ])->toArray(),
+            'reviews' => collect($resp['reviews'] ?? [])
+                ->take(5)
+                ->map(fn ($rev) => [
+                    'author'  => $rev['authorAttribution']['displayName'] ?? 'Google user',
+                    'profile' => $rev['authorAttribution']['uri'] ?? null,
+                    'rating'  => $rev['rating'] ?? null,
+                    'text'    => $rev['text']['text'] ?? '',
+                    'time'    => $rev['relativePublishTimeDescription'] ?? '',
+                ])
+                ->values()
+                ->toArray(),
         ];
 
         $ttlHours = (int) config('services.google_places.cache_h', 12);
-        Cache::put('google.place.details', $data, now()->addHours($ttlHours));
+        Cache::put('google.place.details.v2', $data, now()->addHours($ttlHours));
 
         return $data;
     }

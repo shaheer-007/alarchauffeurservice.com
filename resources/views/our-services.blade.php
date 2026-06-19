@@ -15,7 +15,7 @@
       "url": "https://alarchauffeurservice.com",
       "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
 
       "address": {

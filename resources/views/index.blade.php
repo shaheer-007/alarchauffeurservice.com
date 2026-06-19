@@ -17,7 +17,7 @@ party buses for airport transfers, events, and group travel. ')
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "email": "limo@alarchauffeurservice.com",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
 
       "address": {
         "@@type": "PostalAddress",
@@ -40,7 +40,7 @@ party buses for airport transfers, events, and group travel. ')
 
       "contactPoint": {
         "@@type": "ContactPoint",
-        "telephone": "+1-929-500-0172",
+        "telephone": {!! config('contact.phones_schema_json') !!},
         "contactType": "customer service",
         "areaServed": "US",
         "availableLanguage": ["English"]
@@ -89,7 +89,7 @@ party buses for airport transfers, events, and group travel. ')
       "name": "ALAR Chauffeur Service",
       "url": "https://alarchauffeurservice.com",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
       "priceRange": "$250-$3000",
 
@@ -490,8 +490,7 @@ party buses for airport transfers, events, and group travel. ')
                                 style="padding: 10px 18px; font-size: 13px; color: #fff;">Book
                                 Online</a>
                             <a href="tel:{{ config('contact.phone_tel') }}" class="ve-btn-ghost-dark"
-                                style="padding: 10px 18px; font-size: 13px;">Call
-                                Now</a>
+                            style="padding: 10px 18px; font-size: 13px;">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -673,7 +672,7 @@ party buses for airport transfers, events, and group travel. ')
                             <a href="{{ route('book-online') }}" class="ve-btn-primary"
                                 style="padding: 10px 18px; font-size: 13px; color: #fff;">Book Online</a>
                             <a href="tel:{{ config('contact.phone_tel') }}" class="ve-btn-ghost-dark"
-                                style="padding: 10px 18px; font-size: 13px;">Call Now</a>
+                            style="padding: 10px 18px; font-size: 13px;">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -695,7 +694,7 @@ party buses for airport transfers, events, and group travel. ')
                             <a href="{{ route('book-online') }}" class="ve-btn-primary"
                                 style="padding: 10px 18px; font-size: 13px; color: #fff;">Book Online</a>
                             <a href="tel:{{ config('contact.phone_tel') }}" class="ve-btn-ghost-dark"
-                                style="padding: 10px 18px; font-size: 13px;">Call Now</a>
+                            style="padding: 10px 18px; font-size: 13px;">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -718,7 +717,7 @@ party buses for airport transfers, events, and group travel. ')
                             <a href="{{ route('book-online') }}" class="ve-btn-primary"
                                 style="padding: 10px 18px; font-size: 13px; color: #fff;">Book Online</a>
                             <a href="tel:{{ config('contact.phone_tel') }}" class="ve-btn-ghost-dark"
-                                style="padding: 10px 18px; font-size: 13px;">Call Now</a>
+                            style="padding: 10px 18px; font-size: 13px;">Call Now</a>
                         </div>
                     </div>
                 </div>

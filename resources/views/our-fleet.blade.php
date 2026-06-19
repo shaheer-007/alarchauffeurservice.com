@@ -16,7 +16,7 @@
       "url": "https://alarchauffeurservice.com",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "logo": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
       "priceRange": "$250-$3000",
 

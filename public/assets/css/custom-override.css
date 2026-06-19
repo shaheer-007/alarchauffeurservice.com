@@ -4223,6 +4223,10 @@ textarea.ve-form-input {
     }
 }
 
+.ve-google-reviews-grid .ve-testi-card {
+    height: 100%;
+}
+
 /* ============================================================
    TESTIMONIALS SLIDER - OWL CAROUSEL DOTS
    ============================================================ */

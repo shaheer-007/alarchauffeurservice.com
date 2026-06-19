@@ -57,7 +57,7 @@
       "@@id": "https://alarchauffeurservice.com/#organization",
       "name": "ALAR Chauffeur Service",
       "url": "https://alarchauffeurservice.com",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "logo": {
@@ -88,7 +88,7 @@
       "@@id": "https://alarchauffeurservice.com/#localbusiness",
       "name": "ALAR Chauffeur Service",
       "url": "https://alarchauffeurservice.com",
-      "telephone": "+1-929-500-0172",
+      "telephone": {!! config('contact.phones_schema_json') !!},
       "email": "limo@alarchauffeurservice.com",
       "image": "https://alarchauffeurservice.com/assets/img/logo/logo.png",
       "priceRange": "$150 - $3000",
@@ -102,7 +102,7 @@
       },
       "contactPoint": {
         "@@type": "ContactPoint",
-        "telephone": "+1-929-500-0172",
+        "telephone": {!! config('contact.phones_schema_json') !!},
         "contactType": "customer service",
         "email": "limo@alarchauffeurservice.com",
         "availableLanguage": ["English"]
@@ -152,13 +152,11 @@
                     <p>{{ config('contact.location') }}</p>
                 </div>
             </a>
-            <a href="tel:{{ config('contact.phone_tel') }}" style="text-decoration: none; color: inherit;">
-                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="250ms">
-                    <div class="ve-ci-icon"><i class="fa fa-phone"></i></div>
-                    <h5>Call Us 24/7</h5>
-                    <p>{{ config('contact.phone_display') }}</p>
-                </div>
-            </a>
+            <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="250ms" style="text-decoration: none; color: inherit;">
+                <div class="ve-ci-icon"><i class="fa fa-phone"></i></div>
+                <h5>Call Us 24/7</h5>
+                <p>@include('components.contact-phones')</p>
+            </div>
             <a href="mailto:{{ config('contact.email') }}" style="text-decoration: none; color: inherit;">
                 <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-ci-icon"><i class="fa fa-envelope"></i></div>
